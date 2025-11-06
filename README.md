@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LEGAL EASY</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    /* 🔹 Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 50px;
+    }
+
+    header h1 {
+      color: #0078d7;
+      font-size: 40px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0078d7;
+    }
+
+    .signup-btn {
+      border: 1px solid #0078d7;
+      color: #0078d7;
+      padding: 8px 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    .signup-btn:hover {
+      background-color: #0078d7;
+      color: white;
+    }
+
+    /* 🔹 Hero Section */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 60px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 500px;
+    }
+
+    .hero-text h2 {
+      font-size: 36px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .hero-text span {
+      color: #00b386;
+      font-weight: 700;
+    }
+
+    .hero-text p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .hero-text .cta {
+      background-color: #00b386;
+      color: white;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .hero-text .cta:hover {
+      background-color: #00916e;
+    }
+
+    .store-links {
+      margin-top: 20px;
+    }
+
+    .store-links img {
+      width: 150px;
+      margin-right: 10px;
+    }
+
+    /* 🔹 Logo + Imagen App */
+    .hero-image {
+      text-align: center;
+      margin-left: -40px;
+    }
+
+    .image-pair {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.01px;
+    }
+
+    .image-pair .logo {
+      width: 250px; /* logo agrandado como antes */
+      border-radius: 50%;
+      box-shadow: 0 0px 0px rgba(0,0,0,0.15);
+    }
+
+    .image-pair .phone {
+      width: 450px; /* celular más grande */
+      filter: drop-shadow(0 5px 25px rgba(0,0,0,0.25));
+      background: none;
+      border-radius: 0;
+    }
+
+    /* 🔹 Footer */
+    footer {
+      background-color: #f6f8fa;
+      text-align: center;
+      padding: 20px 0;
+      color: #777;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .image-pair {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .image-pair .logo {
+        width: 250px;
+      }
+
+      .image-pair .phone {
+        width: 300px;
+      }
+
+      header {
+        flex-direction: column;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+     <h1>LEGAL EASY</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+      <a href="#" class="signup-btn">Sign Up</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>The app that <span>makes law easy</span> for everyone</h2>
+      <p>Legal Easy simplifies legal concepts and helps you understand your rights with clarity and confidence. Learn, prevent, and act easily.</p>
+      <button class="cta">Create a free account</button>
+
+      <div class="store-links">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Download_on_the_App_Store_RGB_blk.svg/1024px-Download_on_the_App_Store_RGB_blk.svg.png" alt="App Store">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+      </div>
+    </div>
+
+    <!-- 🔹 Logo + Imagen del celular -->
+    <div class="hero-image">
+      <div class="image-pair">
+        <img src="Gemini_Generated_Image_18q1a718q1a718q1.png" alt="Legal Easy Logo" class="logo">
+       <img src="Gemini_Generated_Image_b98yxfb98yxfb98y-removebg-preview.png" alt="Legal Easy App Preview" class="phone">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Legal Easy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
